@@ -12,7 +12,7 @@
     "test": "cd server && npm test"
   },
   "keywords": ["food-delivery", "mern", "express", "react", "mongodb", "socket.io", "razorpay"],
-  "author": "FoodExpress Team",
+  "author": "Rahul Saikia",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2"
