@@ -51,7 +51,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed mb-4">
-              FoodExpress is your premier online food ordering and real-time delivery platform bringing your favorite restaurant meals straight to your doorstep.
+              SwiftBites is your premier online food ordering and real-time delivery platform bringing your favorite restaurant meals straight to your doorstep.
             </p>
             <div className="flex items-center gap-3 text-slate-400">
               <span className="text-xs font-semibold">Follow Us:</span>
@@ -89,7 +89,7 @@ const Footer = () => {
 
           {/* App Download */}
           <div>
-            <h4 className="text-white font-bold text-sm mb-4">Experience FoodExpress App</h4>
+            <h4 className="text-white font-bold text-sm mb-4">Experience SwiftBites App</h4>
             <p className="text-xs text-slate-400 mb-4">Download our mobile app for exclusive deals and instant order tracking.</p>
             <div className="flex flex-col gap-2">
               <button className="bg-slate-900 border border-slate-800 hover:border-slate-700 text-white p-2.5 rounded-xl text-xs font-bold flex items-center justify-center gap-2">
@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-slate-900 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} FoodExpress Delivery Management System. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SwiftBites Delivery Management System. All rights reserved.</p>
           <div className="flex items-center gap-1">
             <span>Built with</span>
             <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500" />

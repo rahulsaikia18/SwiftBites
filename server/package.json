@@ -1,7 +1,7 @@
 {
-  "name": "foodexpress-server",
+  "name": "swiftbites-server",
   "version": "1.0.0",
-  "description": "Backend API for FoodExpress Food Delivery Platform",
+  "description": "Backend API for SwiftBites Food Delivery Platform",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

@@ -37,10 +37,10 @@ const Payment = () => {
 
   const openRazorpaySDK = (data) => {
     const options = {
-      key: data.keyId || 'rzp_test_foodexpress123',
+      key: data.keyId || 'rzp_test_swiftbites123',
       amount: data.amount,
       currency: data.currency || 'INR',
-      name: 'FoodExpress Platform',
+      name: 'SwiftBites Platform',
       description: 'Food Order Payment',
       order_id: data.razorpayOrderId,
       handler: async (response) => {
@@ -60,8 +60,8 @@ const Payment = () => {
         }
       },
       prefill: {
-        name: 'FoodExpress Customer',
-        email: 'customer@foodexpress.com',
+        name: 'SwiftBites Customer',
+        email: 'customer@swiftbites.com',
       },
       theme: {
         color: '#FF5200',

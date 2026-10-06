@@ -7,10 +7,10 @@ import { setCredentials } from '../redux/slices/authSlice';
 import { login } from '../services/authService';
 
 const demoAccounts = [
-  { role: 'CUSTOMER', email: 'customer1@foodexpress.com', label: 'Customer Demo' },
-  { role: 'RESTAURANT', email: 'owner1@foodexpress.com', label: 'Restaurant Owner Demo' },
-  { role: 'DELIVERY', email: 'delivery1@foodexpress.com', label: 'Rider Demo' },
-  { role: 'ADMIN', email: 'admin@foodexpress.com', label: 'Admin Demo' },
+  { role: 'CUSTOMER', email: 'customer1@swiftbites.com', label: 'Customer Demo' },
+  { role: 'RESTAURANT', email: 'owner1@swiftbites.com', label: 'Restaurant Owner Demo' },
+  { role: 'DELIVERY', email: 'delivery1@swiftbites.com', label: 'Rider Demo' },
+  { role: 'ADMIN', email: 'admin@swiftbites.com', label: 'Admin Demo' },
 ];
 
 const Login = () => {
@@ -59,7 +59,7 @@ const Login = () => {
             F
           </div>
           <h2 className="text-2xl font-black text-slate-900">Welcome Back</h2>
-          <p className="text-xs text-slate-500 mt-1">Sign in to your FoodExpress account</p>
+          <p className="text-xs text-slate-500 mt-1">Sign in to your SwiftBites account</p>
         </div>
 
         {/* Demo Quick Fill Buttons */}

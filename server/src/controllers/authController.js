@@ -98,7 +98,7 @@ const forgotPassword = async (req, res) => {
 
   await sendEmail({
     email: user.email,
-    subject: 'FoodExpress - Password Reset OTP',
+    subject: 'SwiftBites - Password Reset OTP',
     message: `Your password reset OTP is: ${resetToken}. Valid for 10 minutes.`,
   });
 

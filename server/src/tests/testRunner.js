@@ -44,7 +44,7 @@ const makeRequest = (path, method = 'GET', data = null, token = null) => {
 };
 
 const runTests = async () => {
-  console.log('=== FoodExpress Automated API Verification Tests ===\n');
+  console.log('=== SwiftBites Automated API Verification Tests ===\n');
 
   try {
     // 1. Health check
@@ -52,7 +52,7 @@ const runTests = async () => {
     console.log('1. Health Check:', health.status === 200 ? 'PASSED ✅' : 'FAILED ❌', health.body.message || '');
 
     // 2. Auth - Register Test User
-    const testUserEmail = `test_${Date.now()}@foodexpress.com`;
+    const testUserEmail = `test_${Date.now()}@swiftbites.com`;
     const regRes = await makeRequest('/auth/register', 'POST', {
       name: 'Test Customer',
       email: testUserEmail,
@@ -65,7 +65,7 @@ const runTests = async () => {
 
     // 3. Auth - Login Admin
     const loginRes = await makeRequest('/auth/login', 'POST', {
-      email: 'admin@foodexpress.com',
+      email: 'admin@swiftbites.com',
       password: 'password123',
     });
     console.log('3. Admin Login:', loginRes.status === 200 ? 'PASSED ✅' : 'FAILED ❌');

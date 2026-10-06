@@ -4,8 +4,8 @@ let razorpayInstance;
 
 try {
   razorpayInstance = new Razorpay({
-    key_id: process.env.RAZORPAY_KEY_ID || 'rzp_test_foodexpress123',
-    key_secret: process.env.RAZORPAY_KEY_SECRET || 'foodexpress_razorpay_secret_123',
+    key_id: process.env.RAZORPAY_KEY_ID || 'rzp_test_swiftbites123',
+    key_secret: process.env.RAZORPAY_KEY_SECRET || 'swiftbites_razorpay_secret_123',
   });
 } catch (error) {
   console.warn('Razorpay initialization fallback:', error.message);

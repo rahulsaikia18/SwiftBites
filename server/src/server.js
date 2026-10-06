@@ -55,7 +55,7 @@ app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ success: true, message: 'FoodExpress API is running smoothly 🚀', timestamp: new Date() });
+  res.json({ success: true, message: 'SwiftBites API is running smoothly 🚀', timestamp: new Date() });
 });
 
 // API Routes
@@ -80,5 +80,5 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
 
 server.listen(PORT, () => {
-  console.log(`FoodExpress Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
+  console.log(`SwiftBites Server running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
 });

@@ -42,7 +42,7 @@ const Users = () => {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-black text-slate-900">User Management</h1>
-          <p className="text-xs text-slate-500">View and manage registered accounts on FoodExpress</p>
+          <p className="text-xs text-slate-500">View and manage registered accounts on SwiftBites</p>
         </div>
 
         <div className="relative w-full sm:w-64">

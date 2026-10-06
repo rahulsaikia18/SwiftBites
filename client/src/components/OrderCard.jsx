@@ -29,7 +29,7 @@ const OrderCard = ({ order, onReorder }) => {
             />
           </div>
           <div>
-            <h4 className="font-bold text-slate-800 text-sm">{restaurant.name || 'FoodExpress Partner'}</h4>
+            <h4 className="font-bold text-slate-800 text-sm">{restaurant.name || 'SwiftBites Partner'}</h4>
             <p className="text-xs text-slate-400">Order #{order.orderId}</p>
           </div>
         </div>

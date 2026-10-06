@@ -12,7 +12,7 @@ const sendEmail = async (options) => {
     });
 
     const message = {
-      from: `FoodExpress <${process.env.EMAIL_USER || 'noreply@foodexpress.com'}>`,
+      from: `SwiftBites <${process.env.EMAIL_USER || 'noreply@swiftbites.com'}>`,
       to: options.email,
       subject: options.subject,
       text: options.message,

@@ -34,7 +34,7 @@ const AdminDashboard = () => {
           <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider">
             Super Admin Control Center
           </span>
-          <h1 className="text-3xl font-black mt-2">FoodExpress Platform Overview</h1>
+          <h1 className="text-3xl font-black mt-2">SwiftBites Platform Overview</h1>
           <p className="text-xs text-purple-200 mt-1">Monitor users, restaurants, delivery partners & platform revenue</p>
         </div>
 

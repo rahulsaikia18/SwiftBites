@@ -1,6 +1,6 @@
-# 🍔 FoodExpress - Production-Grade Food Delivery Management System
+# 🍔 SwiftBites - Production-Grade Food Delivery Management System
 
-FoodExpress is a full-stack, enterprise-level Food Delivery Management System built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js), Tailwind CSS, Redux Toolkit, Socket.IO, and Razorpay.
+SwiftBites is a full-stack, enterprise-level Food Delivery Management System built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js), Tailwind CSS, Redux Toolkit, Socket.IO, and Razorpay.
 
 ---
 
@@ -119,10 +119,10 @@ npm run dev
 
 | Role | Email | Password |
 |---|---|---|
-| **Admin** | `admin@foodexpress.com` | `password123` |
-| **Restaurant Owner** | `owner1@foodexpress.com` | `password123` |
-| **Customer** | `customer1@foodexpress.com` | `password123` |
-| **Delivery Rider** | `delivery1@foodexpress.com` | `password123` |
+| **Admin** | `admin@swiftbites.com` | `password123` |
+| **Restaurant Owner** | `owner1@swiftbites.com` | `password123` |
+| **Customer** | `customer1@swiftbites.com` | `password123` |
+| **Delivery Rider** | `delivery1@swiftbites.com` | `password123` |
 
 *(Note: The login page includes a **One-Click Demo Fill** button for instant testing!)*
 

@@ -9,7 +9,7 @@ const API = axios.create({
 
 API.interceptors.request.use(
   (config) => {
-    const user = localStorage.getItem('foodexpress_user');
+    const user = localStorage.getItem('swiftbites_user');
     if (user) {
       const parsed = JSON.parse(user);
       if (parsed.token) {

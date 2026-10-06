@@ -30,7 +30,7 @@ const createPaymentOrder = async (req, res) => {
       razorpayOrderId: razorpayOrder.id,
       amount: razorpayOrder.amount,
       currency: razorpayOrder.currency || 'INR',
-      keyId: process.env.RAZORPAY_KEY_ID || 'rzp_test_foodexpress123',
+      keyId: process.env.RAZORPAY_KEY_ID || 'rzp_test_swiftbites123',
     },
   });
 };

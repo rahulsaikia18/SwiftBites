@@ -1,7 +1,7 @@
 {
   "name": "food-delivery-management-system",
   "version": "1.0.0",
-  "description": "FoodExpress - Complete MERN Stack Food Delivery Management System",
+  "description": "SwiftBites - Complete MERN Stack Food Delivery Management System",
   "main": "server/src/server.js",
   "scripts": {
     "setup": "npm install && cd server && npm install && cd ../client && npm install",

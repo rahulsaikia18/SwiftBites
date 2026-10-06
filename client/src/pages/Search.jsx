@@ -59,7 +59,7 @@ const Search = () => {
       </div>
 
       {loading ? (
-        <Loader text="Searching FoodExpress network..." />
+        <Loader text="Searching SwiftBites network..." />
       ) : (
         <div className="space-y-12">
           {/* Restaurants Section */}

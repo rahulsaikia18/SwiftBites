@@ -24,7 +24,7 @@ const createRazorpayOrder = async (amount, receipt) => {
 };
 
 const verifyRazorpaySignature = (orderId, paymentId, signature) => {
-  const secret = process.env.RAZORPAY_KEY_SECRET || 'foodexpress_razorpay_secret_123';
+  const secret = process.env.RAZORPAY_KEY_SECRET || 'swiftbites_razorpay_secret_123';
   const hmac = crypto.createHmac('sha256', secret);
   hmac.update(`${orderId}|${paymentId}`);
   const generatedSignature = hmac.digest('hex');

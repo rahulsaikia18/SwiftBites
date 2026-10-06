@@ -26,7 +26,7 @@ const categoriesData = [
 
 const seedData = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/foodexpress');
+    await mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/swiftbites');
     console.log('Connected to MongoDB for seeding...');
 
     // Clear existing collection data
@@ -44,7 +44,7 @@ const seedData = async () => {
     // 1. Create Admin User
     const admin = await User.create({
       name: 'System Admin',
-      email: 'admin@foodexpress.com',
+      email: 'admin@swiftbites.com',
       password: 'password123',
       phone: '9876543210',
       role: 'ADMIN',
@@ -55,7 +55,7 @@ const seedData = async () => {
     for (let i = 1; i <= 5; i++) {
       const owner = await User.create({
         name: `Restaurant Owner ${i}`,
-        email: `owner${i}@foodexpress.com`,
+        email: `owner${i}@swiftbites.com`,
         password: 'password123',
         phone: `980000000${i}`,
         role: 'RESTAURANT',
@@ -68,7 +68,7 @@ const seedData = async () => {
     for (let i = 1; i <= 10; i++) {
       const customer = await User.create({
         name: `Customer User ${i}`,
-        email: `customer${i}@foodexpress.com`,
+        email: `customer${i}@swiftbites.com`,
         password: 'password123',
         phone: `990000000${i}`,
         role: 'CUSTOMER',
@@ -81,7 +81,7 @@ const seedData = async () => {
     for (let i = 1; i <= 5; i++) {
       const delUser = await User.create({
         name: `Delivery Rider ${i}`,
-        email: `delivery${i}@foodexpress.com`,
+        email: `delivery${i}@swiftbites.com`,
         password: 'password123',
         phone: `970000000${i}`,
         role: 'DELIVERY',
@@ -421,7 +421,7 @@ const seedData = async () => {
         expiryDate: new Date(Date.now() + 60 * 24 * 60 * 60 * 1000),
       },
       {
-        code: 'FOODEXPRESS100',
+        code: 'SWIFBITES100',
         description: 'Flat ₹100 OFF on orders above ₹399',
         discountType: 'FIXED',
         discountAmount: 100,
@@ -468,10 +468,10 @@ const seedData = async () => {
 
     console.log('Database seeded successfully! 🎉');
     console.log('Sample Logins:');
-    console.log('Admin: admin@foodexpress.com / password123');
-    console.log('Restaurant Owner: owner1@foodexpress.com / password123');
-    console.log('Customer: customer1@foodexpress.com / password123');
-    console.log('Delivery Partner: delivery1@foodexpress.com / password123');
+    console.log('Admin: admin@swiftbites.com / password123');
+    console.log('Restaurant Owner: owner1@swiftbites.com / password123');
+    console.log('Customer: customer1@swiftbites.com / password123');
+    console.log('Delivery Partner: delivery1@swiftbites.com / password123');
 
     process.exit(0);
   } catch (error) {
