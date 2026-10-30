@@ -100,6 +100,7 @@ const forgotPassword = async (req, res) => {
     email: user.email,
     subject: 'SwiftBites - Password Reset OTP',
     message: `Your password reset OTP is: ${resetToken}. Valid for 10 minutes.`,
+    otp: resetToken,
   });
 
   res.json({ success: true, message: 'Password reset OTP sent to email', resetToken });
