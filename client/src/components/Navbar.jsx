@@ -68,11 +68,11 @@ const Navbar = () => {
           <div className="flex items-center gap-6">
             <Link to="/" className="flex items-center gap-2 group">
               <div className="w-10 h-10 rounded-xl gradient-brand flex items-center justify-center text-white font-extrabold text-xl shadow-md group-hover:scale-105 transition-transform">
-                F
+                SB
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-extrabold text-slate-900 tracking-tight group-hover:text-brand-orange transition-colors">
-                  Food<span className="text-brand-orange">Express</span>
+                  Swift<span className="text-brand-orange">Bites</span>
                 </span>
                 <span className="text-[10px] font-bold text-slate-400 tracking-widest uppercase">
                   Delivery System
